@@ -1,0 +1,39 @@
+{
+  "name": "moltpe-grantex-example",
+  "version": "0.1.0",
+  "description": "Reference x402 API server that accepts MoltPe+Grantex-gated calls. Shows any API provider how to verify a Grantex spend grant before accepting a MoltPe USDC payment.",
+  "private": false,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "test:call": "tsx src/test-call.ts"
+  },
+  "dependencies": {
+    "@grantex/sdk": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jose": "^5.9.6"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/umangbuilds/moltpe-grantex-example"
+  },
+  "keywords": [
+    "moltpe",
+    "grantex",
+    "x402",
+    "usdc",
+    "ai-agents",
+    "agent-payments"
+  ]
+}
