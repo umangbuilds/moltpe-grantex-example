@@ -67,4 +67,18 @@ sequenceDiagram
 - [src/server.ts](src/server.ts) — Express app, two-middleware stack
 - [src/test-call.ts](src/test-call.ts) — smoke test
 
+## Learn more
+
+- [MoltPe](https://moltpe.com) — payment infrastructure for AI agents. Free tier, no credit card.
+- [The x402 protocol: complete guide](https://moltpe.com/blog/x402-protocol-complete-guide) — the HTTP-native payment standard explained end to end
+- [MoltPe developer quickstart](https://moltpe.com/blog/integrate-moltpe-in-5-minutes-developer-quickstart) — ship your first payment in 5 minutes (REST, MCP, x402, Python)
+- [Why developers choose MoltPe for AI agent payments](https://moltpe.com/blog/why-developers-choose-moltpe-for-ai-agent-payments) — five honest reasons, with tradeoffs
+- [AI agent spending policies explained](https://moltpe.com/blog/ai-agent-spending-policies-guide) — the programmable-limits model this example enforces
+- [Monetizing APIs in USDC with x402](https://moltpe.com/blog/x402-protocol-india-developers) — implementation guide for Indian developers
+- [The MCP server for AI agent payments](https://moltpe.com/blog/mcp-server-for-ai-agent-payments) — Claude Desktop / Cursor / Windsurf config
+
+For Indian builders specifically:
+- [AI Agent Payments in India: Complete Guide (2026)](https://moltpe.com/india)
+- [Cost of AI Agent Payments in India: 2026 Benchmark](https://moltpe.com/blog/cost-of-ai-agent-payments-india-2026-benchmark)
+
 MIT.
